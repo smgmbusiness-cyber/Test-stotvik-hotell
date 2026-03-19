@@ -35,13 +35,13 @@ const twilioClient =
  * Bytt ut numre og data med deres ekte kunder.
  */
 const CUSTOMERS = {
-  "+37257051857": {
+  "+372 5705 1857": {
     customerId: "customer_1",
     businessName: "Støtvik Barber",
     businessType: "barber",
     inboundNumber: "+37257051857",
-    salonSmsNumber: "+4791111111",
-    transferNumber: "+4791111111",
+    salonSmsNumber: "+4790102244",
+    transferNumber: "+4790102244",
     language: "nb",
     timezone: "Europe/Oslo",
     address: "Eksempelveien 1, Oslo",
