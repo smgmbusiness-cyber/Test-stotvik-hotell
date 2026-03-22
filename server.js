@@ -226,6 +226,7 @@ app.get("/api/tools/booking-request/:callId", (req, res) => {
 app.post("/api/webhooks/retell-call-completed", async (req, res) => {
   try {
     const payload = req.body || {};
+    console.log("Webhook received:", JSON.stringify(payload, null, 2));
 
     const eventType = payload.event_type || payload.event || null;
 
