@@ -279,6 +279,7 @@ app.post("/api/webhooks/retell-call-completed", async (req, res) => {
 
     const smsBody = buildSalonSms(call);
     const smsResult = await sendSmsToSalon(smsBody);
+    console.log("Sending SMS:", smsBody);
 
     callStore.set(callId, call);
 
